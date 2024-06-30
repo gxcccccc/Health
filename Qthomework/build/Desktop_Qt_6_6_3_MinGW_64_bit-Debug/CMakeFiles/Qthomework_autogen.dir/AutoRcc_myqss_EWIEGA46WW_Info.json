@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "C:/Users/25145/Desktop/Qthomework/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/Qthomework_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/25145/Desktop/Qthomework/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/25145/Desktop/Qthomework/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/25145/Desktop/Qthomework",
+	"CMAKE_SOURCE_DIR" : "C:/Users/25145/Desktop/Qthomework",
+	"INCLUDE_DIR" : "C:/Users/25145/Desktop/Qthomework/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/Qthomework_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/25145/Desktop/Qthomework/button.qss",
+		"C:/Users/25145/Desktop/112.jpg",
+		"C:/Users/25145/Desktop/\u5fae\u4fe1\u56fe\u7247_20240628163238.jpg"
+	],
+	"LOCK_FILE" : "C:/Users/25145/Desktop/Qthomework/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/CMakeFiles/Qthomework_autogen.dir/AutoRcc_myqss_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "myqss" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_myqss.cpp",
+	"RCC_EXECUTABLE" : "D:/qt13.0.1/6.6.3/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/25145/Desktop/Qthomework/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/CMakeFiles/Qthomework_autogen.dir/AutoRcc_myqss_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/25145/Desktop/Qthomework/myqss.qrc",
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>button.qss</file>
+        <file>../微信图片_20240628163238.jpg</file>
+        <file>../112.jpg</file>
+    </qresource>
+</RCC>

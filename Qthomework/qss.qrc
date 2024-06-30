@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/gxc">
+        <file>112.jpg</file>
+        <file>12.jpg</file>
+        <file>1433.jpg</file>
+        <file>526.jpg</file>
+        <file>OIP.jpg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>2.jpg</file>
+        <file>133.jpg</file>
+        <file>23.jpg</file>
+    </qresource>
+</RCC>

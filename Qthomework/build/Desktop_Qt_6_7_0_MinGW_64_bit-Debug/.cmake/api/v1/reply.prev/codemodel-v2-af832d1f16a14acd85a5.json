@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ba845bfa5b3055756c5f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Qthomework",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Qthomework::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qthomework-Debug-c51aca04de89d84e8500.json",
+					"name" : "Qthomework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Qthomework_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qthomework_autogen-Debug-5ad0604ced28c8b69158.json",
+					"name" : "Qthomework_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Qthomework_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qthomework_autogen_timestamp_deps-Debug-9754d3898e70ec9d3987.json",
+					"name" : "Qthomework_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/G5000/Documents/Qthomework/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/G5000/Documents/Qthomework"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

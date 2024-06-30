@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "C:/Users/G5000/Documents/Qthomework/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Qthomework_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/G5000/Documents/Qthomework/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/G5000/Documents/Qthomework/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/G5000/Documents/Qthomework",
+	"CMAKE_SOURCE_DIR" : "C:/Users/G5000/Documents/Qthomework",
+	"INCLUDE_DIR" : "C:/Users/G5000/Documents/Qthomework/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Qthomework_autogen/include",
+	"INPUTS" : [ "C:/Users/G5000/Documents/Qthomework/image/rat.jpg" ],
+	"LOCK_FILE" : "C:/Users/G5000/Documents/Qthomework/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/Qthomework_autogen.dir/AutoRcc_Logo_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "Logo" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Logo.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.7.0/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/G5000/Documents/Qthomework/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/Qthomework_autogen.dir/AutoRcc_Logo_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/G5000/Documents/Qthomework/Logo.qrc",
+	"VERBOSITY" : 0
+}

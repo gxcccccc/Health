@@ -1,0 +1,3 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\exerciseRecord.dir/objects.a
+D:\qt13.0.1\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\exerciseRecord.dir/objects.a @CMakeFiles\exerciseRecord.dir\objects1.rsp
+D:\qt13.0.1\Tools\mingw1120_64\bin\g++.exe -DQT_QML_DEBUG -g -Wl,--whole-archive CMakeFiles\exerciseRecord.dir/objects.a -Wl,--no-whole-archive -o exerciseRecord.exe -Wl,--out-implib,libexerciseRecord.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\exerciseRecord.dir\linkLibs.rsp

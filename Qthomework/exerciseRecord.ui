@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>exerciseRecord</class>
+ <widget class="QWidget" name="exerciseRecord">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1060</width>
+    <height>593</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*
+{
+background-color: rgb(255, 255, 255);
+}
+QFrame#frame
+{
+    border-radius: 13px;
+	
+	background-image: url(:/gxc/1433.jpg);
+}
+#frame_2
+{
+  border-radius: 13px;
+background-color: rgba(100, 102, 102, 120);
+}
+
+</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>941</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>971</width>
+      <height>871</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLineEdit" name="id">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>139</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(255, 255, 255);
+background:transparent;
+font: 600 10pt &quot;更纱黑体 UI SC SemiBold&quot;;
+border:none;
+border-bottom:1px solid rgba(255, 255, 255,200)
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>运动类型</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="time">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>139</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(255, 255, 255);
+background:transparent;
+font: 600 10pt &quot;更纱黑体 UI SC SemiBold&quot;;
+border:none;
+border-bottom:1px solid rgba(255, 255, 255,200)
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>运动时长</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="kaluli">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>139</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(255, 255, 255);
+background:transparent;
+font: 600 10pt &quot;更纱黑体 UI SC SemiBold&quot;;
+border:none;
+border-bottom:1px solid rgba(255, 255, 255,200)
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>消耗卡路里数</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="day">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>139</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(255, 255, 255);
+background:transparent;
+font: 600 10pt &quot;更纱黑体 UI SC SemiBold&quot;;
+border:none;
+border-bottom:1px solid rgba(255, 255, 255,200)
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>日期</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="chartWidget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>260</y>
+       <width>351</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(182, 182, 182, 100);
+border-radius :15px;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Input">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>540</y>
+       <width>80</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 100);
+	
+	
+	color: rgba(30, 30, 30, 170);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	
+}
+QPushButton:hover
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 180);
+	
+	
+	color: rgba(10, 10, 10, 190);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	
+}
+QPushButton:pressed
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 180);
+	
+	
+	color: rgba(10, 10, 10, 190);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	padding-top: 3px;
+}</string>
+     </property>
+     <property name="text">
+      <string>录入</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Search">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>540</y>
+       <width>80</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 100);
+	
+	
+	color: rgba(30, 30, 30, 170);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	
+}
+QPushButton:hover
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 180);
+	
+	
+	color: rgba(10, 10, 10, 190);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	
+}
+QPushButton:pressed
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 180);
+	
+	
+	color: rgba(10, 10, 10, 190);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	padding-top: 3px;
+}</string>
+     </property>
+     <property name="text">
+      <string>查询</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="chartWidget2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>270</y>
+       <width>391</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(182, 182, 182, 100);
+border-radius :15px;</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="resultsTextEdit">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>200</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(255, 255, 255);
+background:transparent;
+font: 600 10pt &quot;更纱黑体 UI SC SemiBold&quot;;
+border:none;
+border-bottom:1px solid rgba(255, 255, 255,200)
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>查询结果</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>540</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 100);
+	
+	
+	color: rgba(30, 30, 30, 170);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	
+}
+QPushButton:hover
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 180);
+	
+	
+	color: rgba(10, 10, 10, 190);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	
+}
+QPushButton:pressed
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 180);
+	
+	
+	color: rgba(10, 10, 10, 190);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	padding-top: 3px;
+}</string>
+     </property>
+     <property name="text">
+      <string>可视化2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>540</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 100);
+	
+	
+	color: rgba(30, 30, 30, 170);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	
+}
+QPushButton:hover
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 180);
+	
+	
+	color: rgba(10, 10, 10, 190);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	
+}
+QPushButton:pressed
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 180);
+	
+	
+	color: rgba(10, 10, 10, 190);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	padding-top: 3px;
+}</string>
+     </property>
+     <property name="text">
+      <string>可视化</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Title">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>30</y>
+       <width>391</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 28pt &quot;Poor Richard&quot;;
+color: rgba(140, 140, 140, 110);
+
+background:transparent;
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; font-weight:700; color:#d7d7d7;&quot;&gt;Exercise record&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>850</x>
+       <y>20</y>
+       <width>21</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 100);
+	
+	
+	color: rgba(30, 30, 30, 170);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	
+}
+QPushButton:hover
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 180);
+	
+	
+	color: rgba(10, 10, 10, 190);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	
+}
+QPushButton:pressed
+{
+    border-radius:6px;
+	background-color: rgba(255, 255, 255, 180);
+	
+	
+	color: rgba(10, 10, 10, 190);
+	
+	font: 600 10pt &quot;等距更纱黑体 SC SemiBold&quot;;
+	padding-top: 3px;
+}</string>
+     </property>
+     <property name="text">
+      <string>x</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
